@@ -5,6 +5,9 @@
   "bin": {
     "semversionizer": "./bin/cmd.js"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "dependencies": {
     "semversionizer-parser": "git+ssh://git@github.com:orangemug/semversionizer-parser.git",
     "yargs": "^1.3.3"
