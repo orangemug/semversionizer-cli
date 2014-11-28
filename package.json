@@ -1,0 +1,15 @@
+{
+  "name": "semversionizer-cli",
+  "description": "CLI for semversionizer-*",
+  "version": "0.1.0",
+  "bin": {
+    "semversionizer": "./bin/cmd.js"
+  },
+  "dependencies": {
+    "semversionizer-parser": "git+ssh://git@github.com:orangemug/semversionizer-parser.git",
+    "yargs": "^1.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3"
+  }
+}
