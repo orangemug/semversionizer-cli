@@ -12,6 +12,7 @@ var argv = yargs
 var out = parser(argv._[0]);
 
 if(!out) {
+  console.error("Invalid semver");
   process.exit(1);
 }
 
