@@ -3,19 +3,19 @@ A cli for [semversionizer-\*](https://github.com/search?q=user%3Aorangemug+semve
 
 
 ## Install
+To install run
 
-    npm i git+ssh://git@github.com:orangemug/semversionizer-parser.git",
+    npm i -g git+ssh://git@github.com:orangemug/semversionizer-cli.git
+
+Which puts 2 scripts in your path
+
+ * `semver-parse`
+ * `semver-compare`
 
 
 ## Usage
-
-    $ semversionizer --help
-    Usage: node ./bin/cmd.js [semver]
-
-    Examples:
-      node ./bin/cmd.js 1.1.3-beta+build23    Parses a semver
+See the `--help` for each script for its usage.
 
 
-    Options:
-      --loose  Loose semver matching which supports incomplete '1' and '1.2' versions
-    
+## License
+MIT
