@@ -3,7 +3,7 @@
   "description": "CLI for semversionizer-*",
   "version": "0.1.0",
   "bin": {
-    "semversionizer": "./bin/cmd.js"
+    "semver-parser": "./bin/parser.js"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
