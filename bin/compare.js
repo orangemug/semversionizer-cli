@@ -10,7 +10,7 @@ Avaliable operators:\n\
   eq    equal to\n\
   gte   greater than or equal to\n\
   gt    greater than\n")
-  .example("$0 1.0.1-beta lt 1.0.1', 'Check if semver '1.0.1-beta' is less than '1.0.1' ")
+  .example("$0 1.0.1-beta lt 1.0.1'", "'Check if semver '1.0.1-beta' is less than '1.0.1' ")
   .demand(3)
   .argv;
 
