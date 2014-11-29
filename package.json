@@ -3,7 +3,7 @@
   "description": "CLI for semversionizer-*",
   "version": "0.1.0",
   "bin": {
-    "semver-parser": "./bin/parse.js",
+    "semver-parse": "./bin/parse.js",
     "semver-compare": "./bin/compare.js"
   },
   "scripts": {
